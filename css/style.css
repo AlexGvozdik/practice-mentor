@@ -1,4 +1,46 @@
-body {
-  color: tomato;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f6f6f8;
+  --accent-text-color: #2196f3;
+  --paragraph-text-color: #999999;
+  --title-text-color: #000000;
+}
+.page {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-background-color);
+  color: var(--paragraph-text-color);
+  letter-spacing: 0.03em;
+  /* width: 1920px; */
+}
+/* Utilities */
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  width: 1120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
 }
