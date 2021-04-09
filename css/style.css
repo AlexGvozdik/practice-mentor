@@ -17,6 +17,9 @@
   color: var(--paragraph-text-color);
   letter-spacing: var(--letter-spacing);
 }
+
+/*  */
+
 /* ===================== UTILITIES ======================== */
 .list {
   margin: 0;
@@ -36,9 +39,9 @@ img {
 }
 
 .container {
-  width: 1120px;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
   /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
@@ -55,7 +58,7 @@ button {
   color: var(--secondary-text-color);
   background: var(--blue-link);
   box-shadow: var(--box-shadow);
-  border: 1px solid transparent;
+  border: none;
   border-radius: 30px;
 }
 
@@ -118,8 +121,8 @@ header {
 /* ===================== HERO ======================== */
 
 .hero {
-  padding-top: 219px;
-  padding-bottom: 335px;
+  padding-top: 220px;
+  padding-bottom: 350px;
 }
 
 .background-team {
@@ -158,6 +161,7 @@ header {
   color: var(--secondary-text-color);
 }
 .hero-button {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.3;
